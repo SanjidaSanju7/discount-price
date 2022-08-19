@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Price</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <section class=" w-9/12 bg-red-500 mx-auto my-10 rounded-lg">
+            <div class=" md:flex justify-evenly items-center py-8">
+                <div class=" flex justify-center">
+                    <img class=" w-40 h-40 ml-6 " src="discount-gif/discount-offerte.gif" alt="">
+                </div>
+                <div>
+                    <h1 class=" text-white text-5xl font-bold text-center">ENJOY 30% OFF YOUR NEXT PURCHASE
+                    </h1>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class=" grid grid-cols-1 md:grid-cols-3 w-9/12 mx-auto gap-8">
+                <div class="p-8 w-9/12 mx-auto rounded-xl shadow-xl bg-pink-100">
+                    <img src="images/bag-3.png" alt="">
+                    <h3 class=" text-2xl font-bold text-center mt-4"> price: $<span class="price">120</span></h3>
+                </div>
+                <div class="p-8 w-9/12 mx-auto rounded-xl shadow-xl bg-sky-100">
+                    <img src="images/jacket-1.png" alt="">
+                    <h3 class=" text-2xl font-bold text-center mt-4"> price: $<span class="price">90</span></h3>
+                </div>
+                <div class="p-8 w-9/12 mx-auto rounded-xl shadow-xl bg-violet-100">
+                    <img src="images/main-camera.png" alt="">
+                    <h3 class=" text-2xl font-bold text-center mt-4"> price: $<span class="price">130</span></h3>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="w-9/12 mx-auto mt-8">
+            <div class="  mt-10 w-9/12 mx-auto bg-green-300 p-8 md:flex justify-evenly items-center mb-16 rounded-lg  ">
+                <div class="flex justify-center md:grid ">
+                    <button id="apply-btn"
+                        class=" block bg-red-500 hover:bg-sky-700 text-xl font-bold px-8 py-2 rounded-lg text-white text-center mb-4 ">Apply</button>
+                </div>
+                <div class="flex justify-center md:grid ">
+                    <input id="coupon-code" class=" block text-center rounded-lg px-4 py-2 mb-4 w-40" type="text "
+                        placeholder="Coupon Code">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/price.js"></script>
+
+
+</body>
+
+</html>
